@@ -1,0 +1,211 @@
+html{
+    margin:0;
+    padding:0;
+}
+/**************
+    LAYOUT
+**************/
+body{
+    margin:0 auto;
+
+}
+header{
+    background-image: url("./images/bg-pattern-intro-desktop.svg"), linear-gradient(to right, hsl(13, 100%, 72%) 20%, hsl(353, 100%, 62%) 60%);
+    background-repeat:no-repeat;
+    background-position:22% 53%;
+    background-size:2900px 2800px;
+    border-bottom-left-radius:142px;
+    height:520px;
+    padding-top: 40px;
+}
+.title-area{
+    text-align:center;
+    color:#fff;
+    font-family: 'Overpass', sans-serif;
+}
+.title-area h1{
+    margin-top: 200px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width:80%;
+}
+.dropdown-header{
+    padding: 0px 20px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+button{
+    padding:12px 26px;
+    border-radius: 25px;
+    border:none;
+    font-size:16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:bold;
+}
+.btn-white{
+    color:hsl(353, 100%, 62%);
+    background-color: #fff;
+} 
+.btn-clear{
+    background-color:transparent;
+    border:none;
+    margin-right:10px;
+    color:#fff;
+} 
+.btn-learn{
+    color:#fff;
+    background-color: transparent;
+    border:#fff 1px solid;
+}
+.main-section, .init-section h1{
+    text-align:center;
+    width:70%;
+    margin:0 auto;
+    padding-top: 50px;
+}
+.main-section{
+    text-align:left;
+}
+.init-section{
+    background-image: url("./images/illustration-editor-desktop.svg");
+    background-position:120% 0%;
+    background-size:700px 700px;
+    background-repeat:no-repeat;
+    height:700px;
+    margin-bottom:0;
+}
+.infra-section{
+    display:flex;
+    justify-content:flex-end;
+    align-content:flex-start;
+}
+.infra-section img{
+    margin-top:0;
+    padding-top:0;
+    align-self:flex-start;
+}
+.item-a{
+    order:1;
+    width:50%;
+    padding-left:70px;
+    padding-bottom:150px;
+    align-self:center;
+}
+.second-section{
+    margin-top:30px;
+    margin-bottom:0;
+    background-image: url("./images/bg-pattern-circles.svg"), linear-gradient(hsl(237, 23%, 32%)20%,hsl(237, 17%, 21%));
+    background-repeat:no-repeat;
+    background-position:-65% 70%;
+    border-bottom-left-radius:142px;
+    border-top-right-radius: 142px;
+    height:400px;
+}
+.second-section .infra-section,
+.second-section .main-section{
+    margin-bottom:0;
+}
+.last-section{
+    background-image: url(./images/illustration-laptop-desktop.svg);
+    background-repeat:no-repeat;
+    background-size: 850px 700px;
+    background-position: -20% -25%;
+    display:flex;
+    align-content: flex-start;
+    justify-content: center;
+    flex-direction:column;
+    height:700px;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.last-section .main-section{
+    width:430px;
+    padding-left:45%;
+    padding-top: 0px;
+    margin-top:0;
+    align-self:flex-start;
+}
+footer{
+    margin-top:200px;
+    padding-top:100px;
+    margin:0 auto;
+    display:flex;
+    align-items: flex-start;
+    color:darkgray;
+    padding-left:20%;
+    justify-content:space-evenly;
+    border-top-right-radius: 142px;
+    height:300px;
+    background-color: hsl(240, 10%, 16%);
+    font-family: 'Ubuntu', sans-serif;
+}
+.product-footer{
+    padding-left:-100;
+    margin-left:0;
+}
+.connect-footer{
+    padding-right:100px;
+}
+.footer-headings{
+    padding-bottom:30px;
+    color:#fff;
+}
+/****************
+    Typography
+*****************/
+.title-area h1{
+    font-size:60px;
+    font-weight:400;
+}
+.main-section, .init-section{
+    font-family: 'Overpass', sans-serif;
+    padding-left: 60px;
+}
+.main-section p{
+    color:hsl(207, 13%, 34%);
+}
+.header{
+    color:#fff;
+}
+.init-section h1{
+    margin-top:70px;
+    font-size:30px;
+    font-weight:lighter;
+    color:hsl(208, 49%, 24%);
+}
+.main-section h2,
+.main-section h3{
+    color:hsl(208, 49%, 24%);
+    font-size:25px;
+    font-weight:400;
+    font-family: 'Ubuntu', sans-serif;
+}
+.first-section{
+    display:flex;
+    flex-direction: column;
+    color:hsl(207, 13%, 34%); 
+    width:50%;    
+}
+.second-section p,
+.second-section h2{
+    color:#fff;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
